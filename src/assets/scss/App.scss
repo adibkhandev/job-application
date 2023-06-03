@@ -1,0 +1,41 @@
+@import "abstract/variables";
+@import 'bootstrap/scss/bootstrap.scss';
+@import "abstract/base";
+.check{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	input{
+        margin-right: 0.6rem;
+	}
+}
+.button-1{
+	color:#46139f;
+	border-color: #46139f;
+	&:hover{
+		background-color:#46139f ;
+		border-color: #46139f;
+	}
+}
+.button-2{
+	color:#ff7f50;
+	border-color: #ff7f50;
+	&:hover{
+		background-color:#ff7f50 ;
+		border-color: #ff7f50;
+	}
+}
+.button-3{
+	color:#46139f;
+	border-color: #46139f;
+	&:hover{
+		background-color:#46139f ;
+		border-color: #46139f;
+	}
+}
+.data-cont{
+	margin-top: 2.4rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 260px);
+}
